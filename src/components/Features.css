@@ -1,0 +1,41 @@
+.features-section {
+    padding: 3rem 1rem;
+    background-color: #f5faff;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .feature-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 300px;
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .card h3 {
+    margin-bottom: 1rem;
+    color: #007bff;
+  }
+  
+  .card p {
+    color: #555;
+  }
+  

@@ -1,0 +1,53 @@
+.about-us {
+  padding: 3rem 0;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.about-us h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  color: #333; /* Dark color for the heading */
+}
+
+.about-us p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #555; /* Dark gray color for text */
+}
+
+.image-placeholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.image-placeholder img {
+  width: 80%; /* Adjust as needed */
+  max-width: 600px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-placeholder img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Enhanced hover effect */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .about-us h2 {
+    font-size: 1.8rem;
+  }
+
+  .about-us p {
+    font-size: 1rem;
+  }
+
+  .image-placeholder img {
+    width: 100%;
+  }
+}

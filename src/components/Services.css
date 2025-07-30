@@ -1,0 +1,59 @@
+#services {
+  padding: 2rem 0;
+  text-align: center;
+  background-color: #f9f9f9; /* Added a light background color for better contrast */
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.service-cards {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.card {
+  background-color: #fff; /* Changed to white for cleaner look */
+  padding: 2rem;
+  border-radius: 10px; /* More rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer; /* Makes the card clickable */
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #007bff; /* Blue color for the heading */
+}
+
+.card p {
+  font-size: 1rem;
+  color: #666; /* Darker gray for text */
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Stronger hover effect */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .service-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 80%; /* Adjust width on smaller screens */
+    margin-bottom: 1.5rem;
+  }
+}

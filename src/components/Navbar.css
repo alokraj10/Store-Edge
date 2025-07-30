@@ -1,0 +1,130 @@
+/* Navbar Container */
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  /* Center items vertically */
+  padding: 1rem 2rem;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  height: 5rem;  /* Fixed height for the navbar */
+}
+
+/* Logo (Stor-Edge) */
+.logo {
+  font-family: 'Arial', sans-serif;
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #333;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+  display: flex;  /* Ensure logo and image align side by side */
+  align-items: center;  /* Center the text and image vertically */
+}
+
+.logo:hover {
+  color: #007bff;  /* Change color on hover */
+}
+
+
+
+/* Navbar Links */
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #007bff;
+  transform: scale(1.05);
+  transform-origin: center;
+}
+
+/* Auth Section (Login | Signup and Profile Pic) */
+.auth-section {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Login Link */
+.login-link {
+  color: #333;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.3s, transform 0.3s, cursor 0.3s;
+  cursor: pointer;
+}
+
+.login-link:hover {
+  color: #28a745;
+  transform: scale(1.1);
+  text-decoration: underline;
+}
+
+/* Signup Link */
+.signup-link {
+  color: #333;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.3s, transform 0.3s, cursor 0.3s;
+  cursor: pointer;
+}
+
+.signup-link:hover {
+  color: #007bff;
+  transform: scale(1.1);
+  text-decoration: underline;
+}
+
+/* Profile Picture (User) */
+.user-pic {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 2px solid white;
+  object-fit: cover;
+  transition: transform 0.3s, border-color 0.3s;
+}
+
+.user-pic:hover {
+  border-color: #007bff;
+  transform: scale(1.1);
+}
+
+/* Popup Window */
+.popup-window {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  width: 200px;
+  text-align: center;
+}
+
+/* 👇 ADD THIS AT THE END */
+/* Logo Image (logos.png) */
+/* Logo Image (logos.png) */
+.logo-img {
+  height: 4.2rem;  /* Match the font size of the company name */
+  width: auto;     /* Maintain aspect ratio */
+  margin-left: 0px; /* Space between the logo and the company name */
+}
+
+

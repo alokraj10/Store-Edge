@@ -1,0 +1,60 @@
+.testimonials {
+  padding: 3rem 0;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.testimonials h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  color: #333; /* Dark color for the heading */
+}
+
+.testimonial-cards {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: left;
+  font-family: 'Arial', sans-serif; /* Clean font */
+}
+
+.card p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #666; /* Dark gray for the testimonial text */
+}
+
+.card h4 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #007bff; /* Blue color for the client's name */
+}
+
+.card:hover {
+  transform: translateY(-8px); /* Slightly stronger hover effect */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .testimonial-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 80%;
+    margin-bottom: 1.5rem;
+  }
+}

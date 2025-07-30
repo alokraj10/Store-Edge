@@ -1,0 +1,71 @@
+.custom-footer {
+    background-color: #1f2937;
+    color: #f9fafb;
+    padding: 40px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 30px;
+  }
+  
+  h3 {
+    font-size: 16px;
+    margin-bottom: 12px;
+    color: #fbbf24;
+  }
+  
+  ul {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(80px, 1fr)); /* 2 columns per list */
+    gap: 8px 20px;
+    list-style: none;
+    padding: 0;
+    font-size: 14px;
+  }
+  
+  ul li {
+    color: #d1d5db;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  ul li:hover {
+    color: #ffffff;
+    text-decoration: underline;
+  }
+  
+  /* Social Media Links Styling */
+  .social-media {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .social-media a {
+    margin: 0 15px;
+  }
+  
+  .social-media .social-icon {
+    width: 30px; /* Icon size */
+    height: 30px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .social-media .social-icon:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+  }
+  
+  .social-media a:focus,
+  .social-media a:hover {
+    text-decoration: none;
+  }
+  
